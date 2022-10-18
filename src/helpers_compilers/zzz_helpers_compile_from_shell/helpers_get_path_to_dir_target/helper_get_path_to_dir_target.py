@@ -8,7 +8,7 @@ import sys
 #
 class _HelperGetPathToDirProj:
 
-    def get_string_path_to_dir_proj(self, arg_string_path_dir: str) -> str:
+    def get_string_path_to_dir_target(self, arg_string_path_dir: str) -> str:
         #
         # Defs
         #
