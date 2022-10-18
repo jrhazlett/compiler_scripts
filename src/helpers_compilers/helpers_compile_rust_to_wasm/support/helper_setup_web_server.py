@@ -9,7 +9,7 @@ from config_path_project import configPathProject
 from src.helpers_disk.helpers_copy_on_disk.helper_copy_on_disk import helperCopyOnDisk
 from src.helpers_disk.helpers_files.helper_files import helperFiles
 from src.helpers_disk.helpers_paths.helper_paths import helperPaths
-from src.helpers_compilers.helper_compile_rust_to_wasm.support.helper_printing import helperPrinting
+from src.helpers_compilers.helpers_compile_rust_to_wasm.support.helper_printing import helperPrinting
 from src.helpers_shell.helper_shell_cmd import helperShellCmd
 #
 # Class
@@ -98,7 +98,7 @@ class _HelperSetupWebServer:
     def _copy_additional_files( self, arg_str_path_dir_project: str ):
 
         str_path_dir_www = os.path.join( arg_str_path_dir_project, "www", )
-        str_path_file_orig = configPathProject.get_str_path_abs( "src/helpers_compilers/helper_compile_rust_to_wasm/copy/run_server.sh" )
+        str_path_file_orig = configPathProject.get_str_path_abs( "src/helpers_compilers/helpers_compile_rust_to_wasm/copy/run_server.sh" )
 
         helperPrinting.print_message( "".join( [ "Copying file: ", str_path_file_orig, "...", ] ) )
 

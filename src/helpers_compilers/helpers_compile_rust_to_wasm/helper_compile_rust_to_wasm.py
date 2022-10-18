@@ -25,8 +25,8 @@ import os
 # Libraries - custom
 #
 from src.helpers_disk.helpers_paths.helper_paths import helperPaths
-from src.helpers_compilers.helper_compile_rust_to_wasm.support.helper_printing import helperPrinting
-from src.helpers_compilers.helper_compile_rust_to_wasm.support.helper_setup_web_server import helperSetupWebServer
+from src.helpers_compilers.helpers_compile_rust_to_wasm.support.helper_printing import helperPrinting
+from src.helpers_compilers.helpers_compile_rust_to_wasm.support.helper_setup_web_server import helperSetupWebServer
 from src.helpers_shell.helper_shell_cmd import helperShellCmd
 #
 # Class

@@ -1,8 +1,8 @@
 #
 # Libraries - custom
 #
-from src.helpers_compilers.helper_compile_rust_to_wasm.helper_compile_rust_to_wasm import helperCompileRustToWasm
-from src.helpers_compilers.helpers_get_path_to_dir_proj.helper_get_path_to_dir_proj import helperGetPathToDirProj
+from src.helpers_compilers.helpers_compile_rust_to_wasm.helper_compile_rust_to_wasm import helperCompileRustToWasm
+from src.helpers_compilers.zzz_helpers_compile_from_shell.helpers_get_path_to_dir_proj.helper_get_path_to_dir_proj import helperGetPathToDirProj
 #
 # Test area
 #

@@ -24,8 +24,8 @@ This has two benefits:
 #
 # Libraries - custom
 #
-from src.helpers_compilers.helper_compile_go_to_wasm.support.helper_compiler_go import helperCompilerGo
-from src.helpers_compilers.helper_compile_go_to_wasm.support.helper_setup_server_go import helperSetupServerGo
+from src.helpers_compilers.helpers_compile_go_to_wasm.support.helper_compiler_go import helperCompilerGo
+from src.helpers_compilers.helpers_compile_go_to_wasm.support.helper_setup_server_go import helperSetupServerGo
 #
 # Class
 #

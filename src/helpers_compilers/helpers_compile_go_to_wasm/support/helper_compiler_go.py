@@ -5,7 +5,7 @@ import os
 #
 # Libraries - custom
 #
-from src.helpers_compilers.helper_compile_go_to_wasm.support.helper_config_go import helperConfigGo
+from src.helpers_compilers.helpers_compile_go_to_wasm.support.helper_config_go import helperConfigGo
 from src.helpers_disk.helpers_copy_on_disk.helper_copy_on_disk import helperCopyOnDisk
 from src.helpers_disk.helpers_create_on_disk.helper_create_on_disk import helperCreateOnDisk
 from src.helpers_disk.helpers_move_on_disk.helper_move_on_disk import helperMoveOnDisk
@@ -49,7 +49,7 @@ class _HelperCompilerGo:
 
     def _copy_dir_web_server( self, arg_str_path_dir_dest: str ):
 
-        str_path_dir_orig = "src/helpers_compilers/helper_compile_go_to_wasm/www"
+        str_path_dir_orig = "src/helpers_compilers/helpers_compile_go_to_wasm/www"
         #
         # Make dir if non-existent
         #

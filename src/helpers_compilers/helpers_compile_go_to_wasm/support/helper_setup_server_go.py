@@ -6,7 +6,7 @@ import os
 # Libraries - custom
 #
 from config_path_project import configPathProject
-from src.helpers_compilers.helper_compile_go_to_wasm.support.helper_config_go import helperConfigGo
+from src.helpers_compilers.helpers_compile_go_to_wasm.support.helper_config_go import helperConfigGo
 from src.helpers_disk.helpers_copy_on_disk.helper_copy_on_disk import helperCopyOnDisk
 #
 # Class
@@ -17,7 +17,7 @@ class _HelperSetupServerGo:
 
         str_path_dir_server_orig = os.path.join(
             configPathProject.FIELD_PATH_TO_DIR_ROOT_FOR_PROJECT,
-            "src/helpers_compilers/helper_compile_go_to_wasm/copy/www",
+            "src/helpers_compilers/helpers_compile_go_to_wasm/copy/www",
         )
         helperCopyOnDisk.copy_dir_into_dir(
             arg_str_path_dir_orig = str_path_dir_server_orig,
@@ -31,7 +31,7 @@ class _HelperSetupServerGo:
 
         str_path_file_orig = os.path.join(
             configPathProject.FIELD_PATH_TO_DIR_ROOT_FOR_PROJECT,
-            "src/helpers_compilers/helper_compile_go_to_wasm/copy/www/pkg_orig",
+            "src/helpers_compilers/helpers_compile_go_to_wasm/copy/www/pkg_orig",
             str_name_file,
         )
         str_path_file_dest = os.path.join(

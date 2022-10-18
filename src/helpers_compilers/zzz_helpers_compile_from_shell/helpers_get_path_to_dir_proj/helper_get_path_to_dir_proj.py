@@ -9,15 +9,15 @@ import sys
 class _HelperGetPathToDirProj:
 
     def get_string_path_to_dir_proj(self, arg_string_path_dir: str) -> str:
-
-        string_path_to_return = arg_string_path_dir
-
-        # Prioritize the in-module definition for the path
+        #
+        # Defs
+        #
         bool_raise_error = False
         bool_string_path_is_dir = True
         err_to_print = None
-
+        string_path_to_return = arg_string_path_dir
         #
+        # Prioritize the in-module definition for the path
         # If string_path_to_return is not in a 'true' state, then try to
         # replace the value with that in the arguments
         #
@@ -37,12 +37,11 @@ class _HelperGetPathToDirProj:
         # If bool_raise_error is somehow True, then raise an error
         #
         if bool_raise_error:
-            print( "Error: No viable path provided for the target project to compile." )
-            print( "arg_string_path_dir =", arg_string_path_dir, )
-            print( "bool_string_path_is_dir =", bool_string_path_is_dir, )
-            print( "len( sys.argv ) =", len( sys.argv ), )
-            print( "err_to_print =", err_to_print, )
-            print( " " )
+            print( "Error: No viable path provided for the target project to compile.\n" )
+            print( "arg_string_path_dir =", arg_string_path_dir, "\n", )
+            print( "bool_string_path_is_dir =", bool_string_path_is_dir, "\n", )
+            print( "len( sys.argv ) =", len( sys.argv ), "\n", )
+            print( "err_to_print =", err_to_print, "\n", )
             raise()
         #
         # If we get this far, then all checks passed
