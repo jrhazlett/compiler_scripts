@@ -1,3 +1,17 @@
+#
+# Custom
+#
+.idea/
+site_packages_docker
+
+aaa**
+run*.sh
+
+**/.DS_Store
+**/aaa*/
+#
+# Default
+#
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
