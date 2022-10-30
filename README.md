@@ -1,3 +1,10 @@
+WARNING
+
+This repo is deprecated in favor of...<br>
+https://github.com/jrhazlett/compiler_scripts_wasm
+
+...and there are no plans to update it.
+
 # Compiler Scripts
 
 This script package's main purpose is to give the Rust and Go wasm compilation processes
